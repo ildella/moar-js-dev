@@ -35,7 +35,7 @@ Then just copy and paste a couple files to have a new projet up and running
   * And copy this minimal `jest.config.js`
 
 ```js
-const {jest: {preset}} = require('ildella-test-commons')
+const {jest: {preset}} = require('moar-js-dev')
 
 module.exports = {
   ...preset(),
