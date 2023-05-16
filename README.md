@@ -1,4 +1,4 @@
-# README
+# Moar JS Dev. Yes, the one project to bind them all together.
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/npm/v/moar-js-dev.svg?style=flat-square)](https://npmjs.com/package/moar-js-dev)
@@ -7,7 +7,7 @@
 This project has the minimal objective to provide:
 
   * A single dependency with all I need for linting and testing code.
-  * A project structure to mix up **unit**, **integration** and **functional tests** that can target different technologies and working niceley together, in a single project, with indipendend setup and timeout.
+  * A structure for `tests` to mix up **unit**, **integration** and **functional** that can target different technologies and working niceley together, in a single project, with indipendent setup and timeout.
   * Common code for testing stuff
     - Initially only a simple testing module for HTTP APIs. 
   
@@ -19,7 +19,7 @@ The linting part brings together 3 different configurations:
 
 All of this works for Node.js projects, in pure **JavaScript**.
 
-## Setup your project using moar-js-dev
+## Setup a new project with `moar-js-dev`
 
 First add it as development dependency
 
