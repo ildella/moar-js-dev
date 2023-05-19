@@ -1,6 +1,6 @@
 {
   "name": "moar-js-dev",
-  "version": "1.0.0",
+  "version": "1.0.0-RC1",
   "license": "MIT",
   "engines": {
     "node": ">=16.10"
