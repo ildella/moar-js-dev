@@ -31,7 +31,7 @@
   "dependencies": {
     "depcheck": "1.4.3",
     "eslint": "8.40.0",
-    "eslint-config-node-moar": "0.9.0",
+    "eslint-config-node-moar": "0.9.3",
     "eslint-config-node-moar-stricter": "0.1.0",
     "eslint-config-node-moar-test": "0.1.3",
     "eslint-plugin-fp": "2.3.0",
