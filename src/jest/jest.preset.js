@@ -21,6 +21,6 @@ module.exports = {
     },
   },
   coverageReporters: ['text', 'text-summary', 'json', 'json-summary', 'lcov', 'clover', 'html'],
-  setupFilesAfterEnv: ['./src/jest/timeout-fast'],
+  // setupFilesAfterEnv: ['../test/timeout-fast'],
   verbose: false,
 }
