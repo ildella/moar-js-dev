@@ -5,9 +5,7 @@ const routes = require('./routes')
 const app = routes(fastifyApp())
 
 const httpTest = httpTestBase()
-const {
-  start, stop, client,
-} = httpTest(app)
+const {start, stop, client} = httpTest(app)
 
 global.http = client
 
