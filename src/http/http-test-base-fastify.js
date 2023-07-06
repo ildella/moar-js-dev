@@ -8,8 +8,8 @@ module.exports = app => ({
   stop: () => app.close(),
   client: ({headers = {}} = {}) => {
     const {address, port} = app.server.address()
-    const client = httpJsonClient({baseURL: `http://${address}:${port}`})
-    return client(headers)
+    const jsonClient = httpJsonClient({baseURL: `http://${address}:${port}`})
+    return jsonClient({headers})
   },
   address: () => app.server.address(),
 })
