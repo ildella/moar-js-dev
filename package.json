@@ -1,6 +1,6 @@
 {
   "name": "moar-js-dev",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10"
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "depcheck": "1.4.3",
-    "eslint": "8.45.0",
+    "eslint": "8.46.0",
     "eslint-config-node-moar": "0.9.3",
     "eslint-config-node-moar-stricter": "0.1.0",
     "eslint-config-node-moar-test": "0.1.3",

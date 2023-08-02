@@ -1,4 +1,4 @@
-const {toMap} = require('../commons/javascript-utils')
+const {toMap} = require('../commons/')
 
 const supportedFrameworks = toMap({
   fastify: () => require('./http-test-base-fastify'),
