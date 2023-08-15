@@ -1483,10 +1483,10 @@ eslint-config-node-moar-test@0.1.3:
   resolved "https://registry.yarnpkg.com/eslint-config-node-moar-test/-/eslint-config-node-moar-test-0.1.3.tgz#3c21cf867a397b9bcfeb3bd54d394c5ff6f43ec0"
   integrity sha512-soln6wAl1P302vnHdJ9Z6yWjt+z6mwdKy3eWhfl/g30dSuuTdnJLyLRBNeWCk+h+0A+zzLbivxIgIxiEACg9zw==
 
-eslint-config-node-moar@0.9.3:
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-node-moar/-/eslint-config-node-moar-0.9.3.tgz#68271a69bdf2f576715f4d396ca5490cb7897f09"
-  integrity sha512-Qq90bH1+3ZqE5T8ZWqyi2ZMQZGRhZh2AKw1gwgUGA906DvqEu5NhU/7mjCMVA32K04CG6UFRNgWpzMuYjIUOug==
+eslint-config-node-moar@0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-node-moar/-/eslint-config-node-moar-0.10.0.tgz#66944da747426e1736fc4cfcfc6c75299f6fa292"
+  integrity sha512-QTkwtBXnJlow7+CkGiNze0dAENSm+PD8qxHa0Nhd1Lt5xR3qSOfzX93CyI0VuHC6ksReRaT6sW62FUGyBtOV1w==
 
 eslint-plugin-es@^3.0.0:
   version "3.0.1"
