@@ -23,6 +23,7 @@
     "depcheck": "depcheck",
     "lint": "eslint . --max-warnings 2",
     "lint.print": "eslint --print-config src/config.js >> eslint-config.js",
+    "release": "dev-github-npm-release-and-publish.sh",
     "test": "jest",
     "test.ci": "jest --ci",
     "test.coverage": "jest --coverage",
