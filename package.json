@@ -1,6 +1,6 @@
 {
   "name": "moar-js-dev",
-  "version": "1.4.0",
+  "version": "1.4.2",
   "license": "MIT",
   "engines": {
     "node": ">=16.10"
@@ -30,7 +30,7 @@
     "test.watch": "jest --watch"
   },
   "dependencies": {
-    "depcheck": "1.4.3",
+    "depcheck": "1.4.5",
     "eslint": "8.47.0",
     "eslint-config-node-moar": "0.10.0",
     "eslint-config-node-moar-stricter": "0.1.0",
@@ -42,7 +42,7 @@
     "eslint-plugin-security": "1.7.1",
     "eslint-plugin-sonarjs": "0.20.0",
     "eslint-plugin-unicorn": "48.0.1",
-    "jest": "29.6.2",
+    "jest": "29.6.3",
     "node-notifier": "10.0.1"
   },
   "devDependencies": {
