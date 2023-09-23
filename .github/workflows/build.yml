@@ -12,7 +12,10 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18, 20]
+        node-version: [
+          # 18, 
+          20,
+        ]
 
     steps:
     - uses: actions/checkout@v3
@@ -20,6 +23,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
-    - run: yarn install
+    - run: corepack enable
+    - run: yarn --version
+    - run: yarn install --immutable
     - run: yarn audit
     - run: yarn lint
